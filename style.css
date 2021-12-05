@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    position: relative;
+    background-color: #F5F5FA;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 1000px;
+}
+
+.container {
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 131px;
+    text-align: center;
+    
+}
+
+h1 {
+    color:#231D4F;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.main span {
+position: absolute;
+top: 80px;
+left: 430px;
+
+font-size: 20px;
+line-height: 27px;
+color: #848199;
+}
+
+.main .btn1  {
+position: absolute;
+font-weight: 700;
+font-size: 10px;
+background: #5243C2;
+box-shadow: 0px 5px 7px rgba(82, 67, 194, 0.230196);
+border-radius: 22px;
+color:#F496D1 ;
+padding: 15px 28px;
+}
+
+.main .btn2 {
+font-weight: 700;
+color: #848199;
+font-size: 10px;
+background: #FFFFFF;
+border-radius: 22px;
+padding: 15px 38px 15px 140px ;
+}
+
+.buttons {
+    position: absolute;
+    top: 300px;
+    left: 470px;
+}
+
+.pricing-table {
+    columns: 4;
+    position: absolute;
+    top: 377px;
+    background: #FFFFFF;
+    border-radius: 26px;
+}
+
+.price1 {
+    width: 282px;
+}
+
+.price1-in {
+    padding: 40px;
+}
+
+.price {
+    display: inline;
+    font-size: 36px;
+    font-weight: 900;
+    color: #231D4F;
+}
+.price1-in span {
+    color: #848199;
+    display: inline;
+}
+.name {
+    margin-top: 15px;
+    color: #231D4F;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.detail {
+    color: #848199;
+    font-size: 15px;
+}
+
+.avantaje {
+    color: #848199;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.avantaje i {
+    color: #5243C2;
+    font-size: 20px;
+    background: rgba(82, 67, 194, 0.103693);
+    border-radius: 50%;
+}
+
+.avantaje  li {
+    padding: 3px 0;
+}
+
+.btn3 {
+padding: 14px 60px;
+background: rgba(244, 150, 209, 0.2);;
+border-radius: 24px;
+color: #F496D1;
+font-weight: 900;
+font-size: 15px;
+margin-left: 30px;
+margin-bottom: 20px;
+}
+
+/* popular section */
+.popular {
+    background: #5243C2;
+    border-radius: 26px;
+}
+.popular .price {
+    color: #fff;
+}
+.popular span {
+    color: #fff;
+}
+
+.popular .name {
+    color: #fff;
+}
+
+.popular i {
+    background: #6355C8;
+    color: #fff;
+}
+
+.popular .btn3 {
+    background: #F496D1;
+    color: #5243C2;
+
+}
